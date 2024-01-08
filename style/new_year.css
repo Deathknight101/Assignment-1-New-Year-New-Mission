@@ -6,11 +6,12 @@ body {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../assets/Banner\ Image.png);
     width: 1320px;
     height: 600px;
-    margin: auto;
+    margin-top: 50px;
     background-position: center;
     border-radius: 16px;
     display: flex;
     justify-content: center;
+    margin: 50px auto auto auto ;
 
 }
 
@@ -84,6 +85,19 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 120px;
+}
+
+.join-now {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
 }
 
 .sec-head {
@@ -357,10 +371,12 @@ footer {
     margin-top: 0px;
     /* margin-left: 10px; */
 }
-.call{
+
+.call {
     margin-right: 25px;
 }
-.website{
+
+.website {
     margin-right: 10px;
 }
 
@@ -408,7 +424,7 @@ hr {
     width: 1400px;
     background-color: #FFF;
     margin-left: 250px;
-    margin-bottom:  120px; 
+    margin-bottom: 120px;
 
 }
 
@@ -457,6 +473,77 @@ hr {
     height: 364.844px;
     border-radius: 463px;
     border: 15px solid #F00;
-    padding: 49.08px ;
+    padding: 49.08px;
+
+}
+
+.bonus-2-1 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* width: 1600px; */
+    margin-bottom: 0px;
+}
+
+.bonus-cont h4 {
+    text-align: center;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bonus-cont h1 span {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.bonus-cont h1 {
+    text-align: center;
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.bonus-cont p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    width: 1068px;
+}
+.bonus-img{
+    height: 1000px;
+    position: relative;
+}
+.box-1 img{
+    position: absolute;
+    top: 215px;
+    left: 300px;
+}
+
+.box-2 img{
+    position: absolute;
+    left:1171px;
+    bottom: 349px;
     
+}    
+
+.box-3 img {
+    position: absolute;
+    bottom: 398px;
+    left: 1000px;
+    
+}
+
+.box-4 img{
+    position: absolute;
+    bottom: 0px;
+    left: 280px;
+    margin-bottom: 120px;
 }
