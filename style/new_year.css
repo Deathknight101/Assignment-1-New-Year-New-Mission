@@ -243,6 +243,13 @@ body {
 .img-set-1 {
     display: flex;
     gap: 23px;
+    margin-bottom: 10px;
+    justify-content: left;
+
+}
+.img-set-1-2 {
+    display: flex;
+    gap: 23px;
     margin-bottom: 120px;
     justify-content: left;
 
