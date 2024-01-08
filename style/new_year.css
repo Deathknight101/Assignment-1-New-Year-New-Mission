@@ -245,6 +245,8 @@ body {
     gap: 23px;
     margin-bottom: 10px;
     justify-content: left;
+    transition: transform 0.3 ease-in-out;
+
 
 }
 .img-set-1-2 {
@@ -252,8 +254,17 @@ body {
     gap: 23px;
     margin-bottom: 121px;
     justify-content: left;
-
+    transition: transform 0.3 ease-in-out;
+    
 }
+.img-set-1 :hover{
+    transform: scale(1.1);
+}
+
+.img-set-1-2 :hover{
+    transform: scale(1.1);
+}
+
 
 .sec-5 {
     width: 1320px;
